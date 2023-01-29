@@ -1,0 +1,43 @@
+
+/* Extra large devices  */
+@media (min-width: 1200px) { 
+    /* About_us_part_start */
+    .about_tittle p {
+        line-height: 23px;
+    }
+      /* About_us_part_end */
+ }
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* About_us_part_start */
+      /* About_us_part_end */
+ }
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      /* About_us_part_start */
+      .about_box {
+        margin-left:10px;
+    }
+      /* About_us_part_end */
+}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* About_us_part_start */
+    .about_box {
+        margin-left: 0px;
+    }
+
+     /* About_us_part_end */
+ }
+
+/* Extra small devices  */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    /* About_us_part_start */
+    .about_box {
+        padding-right: -80px;
+    }
+    /* About_us_part_end */
+ }
